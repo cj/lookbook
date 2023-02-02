@@ -31,7 +31,7 @@ module Lookbook
 
     initializer "lookbook.file_watcher.paths" do
       opts.listen_paths += opts.preview_paths
-      opts.listen_paths << opts.components_path
+      # opts.listen_paths << opts.components_path
     end
 
     initializer "lookbook.file_watcher.previews" do
